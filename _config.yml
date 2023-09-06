@@ -4,7 +4,7 @@ title_right   : "Chu" # default: ""
 description   : "xyz"
 keywords      : ""
 url           : https://anniechu.github.io # site url
-baseurl       : "/index.html" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
+baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
 cover         : "" # image uri like logo/cover image for site seo
 
 google_analytics  : UA-XXXXX-XX
@@ -28,7 +28,7 @@ sass:
 
 # Author settings
 author:
-  name     : "John Doe"
+  name     : "Annie Chu"
 
 plugins:
   - jekyll-sitemap
