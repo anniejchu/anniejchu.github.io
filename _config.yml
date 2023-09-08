@@ -1,7 +1,7 @@
 # Site settings
-title_left    : "Annie"
-title_right   : "Chu" # default: ""
-description   : "xyz"
+title_left    : "Annie Chu"
+title_right   : "" # default: ""
+description   : "Annie's Website"
 keywords      : "northwestern, phd"
 url           : https://anniejchu.github.io # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
@@ -37,6 +37,10 @@ plugins:
 
 # navbar pages
 navbar:
+  - slug : testing
+    title: Testing
+  - slug : cv
+    title: CV
   - slug : about
     title: About
   - slug : blog

@@ -1,6 +1,14 @@
 // Typography
 @import url('https://fonts.googleapis.com/css?family=Overpass+Mono:400,700');
-$base-font-family: 'Overpass Mono', monospace;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@;0,400;0,500;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap');
+// $base-font-family: 'Roboto Mono', monospace;
+// $base-font-family: 'Overpass Mono', monospace;
+$base-font-family: 'Inconsolata', monospace;
+// $base-font-family: 'Libre Baskerville', serif;
+// $base-font-family: 'DM Sans', sans-serif;
 $heading-font-family: $base-font-family;
 
 // Font Sizes
@@ -19,7 +27,9 @@ $base-z-index: 0;
 // Colors
 $primary-color: #000;
 $action-color: $primary-color;
-$white-color: #fff;
+$white-color: rgb(255, 255, 255);
+$test-color: #DBD1B3;
+$test-color2: #9b7606;
 $black-color: #000;
 $blue-color: #0086B3;
 $dark-gray-color: #333;
@@ -27,14 +37,14 @@ $medium-gray-color: #999;
 $light-gray-color: #ccc;
 
 // Font Colors
-$base-font-color: rgba($dark-gray-color, .8);
+$base-font-color: $primary-color;
 
 // Border
-$base-border-color: $light-gray-color;
+$base-border-color: rgba($test-color, .1);
 $base-border: 1px solid $base-border-color;
 
 // Background Colors
-$base-background-color: $white-color;
+$base-background-color: rgba($test-color, .1);
 $secondary-background-color: tint($base-border-color, 80%);
 
 // Forms

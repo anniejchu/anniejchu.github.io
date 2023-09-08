@@ -65,11 +65,12 @@ hr {
   &:focus,
   &:active {
     border-bottom: 2px solid $blue-color;
+    padding-bottom: .1em;
   }
 }
 
 .site-header {
-  border-bottom: 1px solid lighten($light-gray-color, 5%);
+  border-bottom: 1px solid lighten($black-color, 5%);
   margin-bottom: $small-spacing;
   min-height: 80px;
 }
