@@ -1,7 +1,7 @@
 ---
 layout: default
+title: Home
 ---
-
 
 <section class="intro">
   <div class="container">
