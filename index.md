@@ -20,7 +20,9 @@ title: Home
       You can reach me at anniechu [at] u.northwestern.edu
       <br>
       <br>
-      01/2025 update! Read my paper Text2FX -- applying text-guided audio effects (accepted at ICASSP 2025!), <a href="https://arxiv.org/abs/2409.18847">(preprint)</a>.
+      <hr>
+      <span style="color: blue;"><strong>01/2025 update!</strong></span> Text2FX has been accepted to ICASSP 2025! Check out the <a href="https://arxiv.org/abs/2409.18847">paper (arXiv)</a> and the <a href="research/text2fx">demo page</a>.
+      <hr>
     </p>
     <!-- <h6 class="lead">
       Little Fun Facts

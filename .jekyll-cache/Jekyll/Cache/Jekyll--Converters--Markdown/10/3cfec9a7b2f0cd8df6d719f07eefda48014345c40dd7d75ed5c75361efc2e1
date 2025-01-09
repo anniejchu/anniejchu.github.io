@@ -1,4 +1,4 @@
-I"‚&<!-- ## Text2FX -->
+I"º(<!-- ## Text2FX -->
 <p align="center"> <strong><font size="5">Text2FX: Harnessing CLAP Embeddings for Text-Guided Audio Effects</font></strong> </p>
 <p align="center"><font size="3"><u>Annie Chu</u>, Patrick O'Reilly, Julia Barnett, Bryan Pardo</font></p>
 <p align="center"><font size="3">Northwestern University</font></p>
@@ -16,9 +16,36 @@ How can we apply audio FX (e.g., EQ, reverb, etc) with any natural language prom
     text-decoration: none;
     border-radius: 5px;
     border: none;
+    margin-right: 10px;
   ">
     View on ArXiv
   </a>
+  <a href="#" style="
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #6c757d;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: not-allowed;
+  ">
+    Github (soon)
+  </a>
+  <!-- <button style="
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #6c757d;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: not-allowed;
+  ">
+    Github (soon)
+  </button> -->
 </div>
 
 <hr />

@@ -23,9 +23,36 @@ How can we apply audio FX (e.g., EQ, reverb, etc) with any natural language prom
     text-decoration: none;
     border-radius: 5px;
     border: none;
+    margin-right: 10px;
   ">
     View on ArXiv
   </a>
+  <a href="#" style="
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #6c757d;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: not-allowed;
+  ">
+    Github (soon)
+  </a>
+  <!-- <button style="
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #6c757d;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: not-allowed;
+  ">
+    Github (soon)
+  </button> -->
 </div>
 
 <hr> 
