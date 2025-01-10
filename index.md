@@ -21,7 +21,7 @@ title: Home
       <br>
       <br>
       <hr>
-      <span style="color: blue;"><strong>01/2025 update!</strong></span> Text2FX has been accepted to ICASSP 2025! Check out the <a href="https://arxiv.org/abs/2409.18847">paper (arXiv)</a> and the <a href="research/text2fx">demo page</a>.
+      <span style="color: blue;"><strong>01/2025 update!</strong></span> Text2FX has been accepted to ICASSP 2025! Check out the <a href="https://arxiv.org/abs/2409.18847">paper (arXiv)</a> and the <a href="text2fx/">demo page</a>.
       <hr>
     </p>
     <!-- <h6 class="lead">

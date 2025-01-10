@@ -5,4 +5,4 @@ which_category: research
 permalink: /research/
 ---
 
-- [Text2FX](/research/text2fx)
+- [Text2FX](/text2fx)

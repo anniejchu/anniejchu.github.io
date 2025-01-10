@@ -2,7 +2,7 @@
 layout: page
 # title: Text2FX
 which_category: research
-permalink: /research/text2fx/
+permalink: /text2fx/
 ---
 
 <!-- ## Text2FX -->
