@@ -11,6 +11,9 @@
 <loc>http://localhost:4000/text2fx/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/text2fx/text2eq/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/research/</loc>
 </url>
 <url>
@@ -19,5 +22,13 @@
 <url>
 <loc>http://localhost:4000/assets/102024_CV.pdf</loc>
 <lastmod>2024-10-30T16:06:24-05:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/research/text2eq/468_lbd.pdf</loc>
+<lastmod>2024-11-01T14:27:48-05:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/research/text2eq/468_poster.pdf</loc>
+<lastmod>2024-11-01T14:24:23-05:00</lastmod>
 </url>
 </urlset>
