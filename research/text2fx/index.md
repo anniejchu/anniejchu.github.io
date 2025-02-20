@@ -4,6 +4,9 @@ layout: page
 which_category: research
 permalink: /text2fx/
 ---
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
 
 <!-- ## Text2FX -->
 <p align="center"> <strong><font size="5">Text2FX: Harnessing CLAP Embeddings for Text-Guided Audio Effects</font></strong> </p>
@@ -18,27 +21,35 @@ How can we apply audio FX (e.g., EQ, reverb, etc) with any natural language prom
     display: inline-block;
     padding: 10px 20px;
     font-size: 16px;
-    color: white;
-    background-color: #007bff;
+    color: rgb(222, 74, 33);
+    background-color: white;
     text-decoration: none;
     border-radius: 5px;
-    border: none;
-    margin-right: 10px;
-  ">
-    View on ArXiv
+    border: 2px solid rgb(222, 74, 33);
+    transition: all 0.3s ease;
+  "
+  onmouseover="this.style.backgroundColor='rgb(222, 74, 33)'; this.style.color='white'; this.style.borderColor='rgb(200, 60, 20)'; this.style.boxShadow='0px 0px 10px rgba(222, 74, 33, 0.7)';"
+  onmouseout="this.style.backgroundColor='white'; this.style.color='rgb(222, 74, 33)'; this.style.borderColor='rgb(222, 74, 33)'; this.style.boxShadow='none';">
+    Paper (arXiv)
   </a>
-  <a href="#" style="
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 16px;
-    color: white;
-    background-color: #6c757d;
-    text-decoration: none;
-    border-radius: 5px;
-    border: none;
-    cursor: not-allowed;
-  ">
-    Github (soon)
+
+  <a href="https://github.com/anniejchu/text2fx" style="
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 20px;
+      font-size: 16px;
+      color: rgb(25, 118, 210); /* Blue text */
+      background-color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      border: 2px solid rgb(25, 118, 210); /* Blue border */
+      transition: all 0.3s ease;
+    "
+    onmouseover="this.style.backgroundColor='rgb(25, 118, 210)'; this.style.color='white'; this.style.borderColor='rgb(20, 100, 180)'; this.style.boxShadow='0px 0px 10px rgba(25, 118, 210, 0.7)';"
+    onmouseout="this.style.backgroundColor='white'; this.style.color='rgb(25, 118, 210)'; this.style.borderColor='rgb(25, 118, 210)'; this.style.boxShadow='none';">
+    <i class="fa-brands fa-github"></i>
+    Github
   </a>
   <!-- <button style="
     display: inline-block;
@@ -57,12 +68,15 @@ How can we apply audio FX (e.g., EQ, reverb, etc) with any natural language prom
 
 <hr> 
 
+<p align="center"><font size="3" color="blue">Accepted to ICASSP 2025</font></p>
+
+<hr> 
 
 
 #### Abstract
 **tl;dr: How can we apply audio effects (e.g., EQ, reverb, etc) with any natural language prompt (e.g., make this 'warm and cozy')?**
 
-This work introduces Text2FX, a method that leverages CLAP embeddings and differentiable digital signal processing to control audio effects, such as equalization and reverberation, using open-vocabulary natural language prompts (e.g., "make this sound in-your-face and bold"). Text2FX operates without retraining any models, relying instead on single-instance optimization within the existing embedding space. We show that CLAP encodes valuable information for controlling audio effects and propose two optimization approaches using CLAP to map text to audio effect parameters. While we demonstrate with CLAP, this approach is applicable to any shared text-audio embedding space. Similarly, while we demonstrate with equalization and reverberation, any differentiable audio effect may be controlled. We conduct a listener study with diverse text prompts and source audio to evaluate the quality and alignment of these methods with human perception.
+This work introduces Text2FX, a method that leverages CLAP embeddings and differentiable digital signal processing to control audio effects, such as equalization and reverberation, using open-vocabulary natural language prompts (e.g., "make this sound in-your-face and bold"). Text2FX operates without retraining any models, relying instead on single-instance optimization within the existing embedding space, thus enabling a flexible, scalable approach to open-vocabulary sound transformations through interpretable and disentangled FX manipulation. We show that CLAP encodes valuable information for controlling audio effects and propose two optimization approaches using CLAP to map text to audio effect parameters. While we demonstrate with CLAP, this approach is applicable to any shared text-audio embedding space. Similarly, while we demonstrate with equalization and reverberation, any differentiable audio effect may be controlled. We conduct a listener study with diverse text prompts and source audio to evaluate the quality and alignment of these methods with human perception.
 
 
 #### Examples
