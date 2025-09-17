@@ -74,7 +74,7 @@ permalink: /mix2morph/
 <hr> 
 
 <div style="text-align: center; font-weight: bold; font-style: italic;">
-  This is the supplementary page containing listening examples for the ICASSP 2026 paper submission “Mix2Morph: Bootstrapping Sound Morphing with Noisy Mixes”.
+  This is the supplementary page containing listening examples for the ICASSP 2026 paper submission “Mix2Morph: Learning Sound Morphing from Noisy Mixes”.
 </div>
 
 <hr>
