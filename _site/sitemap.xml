@@ -8,9 +8,6 @@
 <loc>http://localhost:4000/about/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/text2fx/</loc>
-</url>
-<url>
 <loc>http://localhost:4000/text2fx/text2eq/</loc>
 </url>
 <url>
@@ -18,6 +15,16 @@
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/mix2morph/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/text2fx/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/assets/062025_CV.pdf</loc>
+<lastmod>2025-06-13T12:53:29-05:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/assets/102024_CV.pdf</loc>

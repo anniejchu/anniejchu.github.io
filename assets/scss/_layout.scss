@@ -293,3 +293,12 @@ hr {
     }
   }
 }
+.audioplayer {
+  width: 150px;
+  // height: 25px; // optional: makes it a slim bar
+}
+.wide-table {
+  max-width: 95vw;   // use 95% of viewport width
+  overflow-x: auto;  // allow scrolling if still too wide
+  margin: 0 auto;
+}
