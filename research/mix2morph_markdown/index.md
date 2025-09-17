@@ -83,7 +83,7 @@ permalink: /mix2morph/
 
 We introduce Mix2Morph, a text-to-audio diffusion model fine-tuned to perform sound morphing without a dedicated morph dataset. By finetuning on noisy surrogate mixes at higher diffusion timesteps, Mix2Morph yields stable, perceptually coherent morphs that convincingly integrate qualities of both sources. We specifically target sound infusion, a practically and perceptually motivated subclass of morphing in which one sound acts as the dominant primary source, providing overall temporal and structural behavior, while a secondary sound is infused throughout, enriching its timbral and textural qualities. Objective evaluations and listening tests show that Mix2Morph outperforms prior baselines and produces high-quality sound infusions across diverse categories, representing a step toward more controllable and creative tools for sound design.
 
-## Mix2Morph Fig 1. Examples
+## Mix2Morph Fig 1. Audio Examples (recommend headphones)
 
 ![Artboard 14 copy 3.png](/research/mix2morph_markdown/assets/Artboard_14_copy_3.png)
 
@@ -136,10 +136,10 @@ _Listener Likert Ratings below audio (if applicable)_
   <tr>
     <th>Infusion Prompt</th>
     <th>Mix2Morph (ours)</th>
-    <th>LGrS</th>
-    <th>MorphFader</th>
+    <th><a href="https://www.arxiv.org/abs/2507.19202">LGrS</a></th>
+    <th><a href="https://arxiv.org/abs/2408.07260">MorphFader</a></th>
     <th>Simple Mixing</th>
-    <th>SoundMorpher</th>
+    <th><a href="https://arxiv.org/abs/2410.02144">SoundMorpher</a></th>
     <th>Base Model</th>
   </tr>
 
@@ -232,10 +232,10 @@ _Listener Likert Ratings below audio (if applicable)_
   <tr>
     <th>Infusion Prompt</th>
     <th>Mix2Morph (ours)</th>
-    <th>LGrS</th>
-    <th>MorphFader</th>
+    <th><a href="https://www.arxiv.org/abs/2507.19202">LGrS</a></th>
+    <th><a href="https://arxiv.org/abs/2408.07260">MorphFader</a></th>
     <th>Simple Mixing</th>
-    <th>SoundMorpher</th>
+    <th><a href="https://arxiv.org/abs/2410.02144">SoundMorpher</a></th>
     <th>Base Model</th>
   </tr>
 
