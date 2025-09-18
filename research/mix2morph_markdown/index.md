@@ -83,9 +83,9 @@ permalink: /mix2morph/
 
 We introduce Mix2Morph, a text-to-audio diffusion model fine-tuned to perform sound morphing without a dedicated morph dataset. By finetuning on noisy surrogate mixes at higher diffusion timesteps, Mix2Morph yields stable, perceptually coherent morphs that convincingly integrate qualities of both sources. We specifically target sound infusion, a practically and perceptually motivated subclass of morphing in which one sound acts as the dominant primary source, providing overall temporal and structural behavior, while a secondary sound is infused throughout, enriching its timbral and textural qualities. Objective evaluations and listening tests show that Mix2Morph outperforms prior baselines and produces high-quality sound infusions across diverse categories, representing a step toward more controllable and creative tools for sound design.
 
-## Mix2Morph Fig 1. Audio Examples (recommend headphones)
+## Mix2Morph Fig 1. Audio Examples (headphones recommended)
 
-![Artboard 14 copy 3.png](/research/mix2morph_markdown/assets/Artboard_14_copy_3.png)
+![Artboard 14 copy 3.png](/research/mix2morph_markdown/assets/v7_simplified.jpg)
 
 |  <span class="primary">wav1</span> : balls bouncing | <span class="secondary">wav2</span>: 808s (bass) | **None (Simple Mix)** | **+RMS-only** | **+Spectral-only** | **+Both** | **Generated Infusion** |
 |---------------------------|-----------------------|------------------------|---------------|---------------------|-----------|-------------------------|
@@ -95,7 +95,7 @@ We introduce Mix2Morph, a text-to-audio diffusion model fine-tuned to perform so
 ---
 
 
-## Listening Examples
+## Listening Examples (headphones recommended)
 
 <div align="center">
   <h4>Prompt Template >> "behavior of <span class="primary">[primary source]</span> with timbre like <span class="secondary">[secondary source]</span>"</h4>
