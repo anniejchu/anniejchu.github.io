@@ -289,3 +289,5 @@ _Listener Likert Ratings below audio (if applicable)_
     <td><audio controls class="audioplayer"><source src="/research/mix2morph_markdown/assets/c1likec2_hammering_into_a_door_like__marimba 2.wav" type="audio/wav"></audio><br>–</td>
   </tr>
 </table>
+
+### Note: If having trouble viewing samples, please [click here for backup link](https://anniechu.notion.site/mix2morph).
