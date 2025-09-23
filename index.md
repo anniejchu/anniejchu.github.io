@@ -7,31 +7,38 @@ title: Home
   <div class="container">
     <h4 class="lead">Hello!</h4>
     <p class="lead">
-      I'm Annie (she/her), a 2nd year PhD student at Northwestern University in the <a href="https://tsb.northwestern.edu/">Technology & Social Behavior</a> program, a dual PhD
+      I'm Annie (she/her), a 3rd year PhD student at Northwestern University in the <a href="https://tsb.northwestern.edu/">Technology & Social Behavior</a> program, a dual PhD
       program in Computer Science and Communications.
-      <br>
-      <br>
-      I'm currently at the <a href="https://interactiveaudiolab.github.io/">Interactive Audio Lab</a>, advised by Dr. Bryan Pardo. My research interests lie at the intersection of audio, machine learning, multimodal systems, human-computer interaction, and accessible & inclusive interfaces.
-      <br>
-      <br>
+      <br><br>
+      I'm currently at the <a href="https://interactiveaudiolab.github.io/">Interactive Audio Lab</a>, advised by Dr. Bryan Pardo. My research interests lie at the intersection of audio, machine learning, human-computer interaction, and computational musicology.
+      <br><br>
       Previously, I completed my B.S. in Electrical & Computer Engineering with a concentration in Media Arts at Olin College in Boston, MA. In my free time, you can find me walking around record shops, watching stand up, or playing bananagrams. I am also on the hunt for the best bagel in Chicago. 
-      <br>
-      <br>
+      <br><br>
       You can reach me at anniechu [at] u.northwestern.edu
-      <br>
-      <br>
-      <hr>
-      <span style="color: blue;"><strong>01/2025 update!</strong></span> Text2FX has been accepted to ICASSP 2025! Check out the <a href="https://arxiv.org/abs/2409.18847">paper (arXiv)</a> and the <a href="text2fx/">demo page</a>.
-      <hr>
     </p>
-    <!-- <h6 class="lead">
-      Little Fun Facts
-    </h6>
+  </div>
+</section>
+
+<section class="research-updates">
+  <div class="container">
+    <h4 class="lead">Updates</h4>
     <ul>
-      <li> born and raised in Queens, NYC </li>
-      <li> favorite genre is jazz rap </li>
-      <li> BIG fan of oranges </li>
-    </ul> -->
-    
+      <li>
+        <span style="color: blue;"><strong>09/2025:</strong></span> 
+        Our work <em>"Listening in the Age of the Algorithm: Bridging Musicology and HCI Methodologies"</em> was accepted at Clouds, Streams, and Ground (Truths) Conference, in March 2026.
+      </li>
+      <li>
+        <span style="color: blue;"><strong>Summer 2025:</strong></span> 
+        Interning at Adobe (Sound Design AI group) 
+      </li>
+      <li>
+        <span style="color: blue;"><strong>04/2025:</strong></span> 
+        Presented our work <em>Text2FX</em> at ICASSP 2025! 
+        Check out the 
+        <a href="https://arxiv.org/abs/2409.18847" style="color: darkred; font-weight: bold;">paper (arXiv)</a> 
+        and the 
+        <a href="text2fx/" style="color: darkred; font-weight: bold;">demo page</a>.
+      </li>
+    </ul>
   </div>
 </section>
