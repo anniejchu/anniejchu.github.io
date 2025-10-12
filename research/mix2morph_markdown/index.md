@@ -81,7 +81,7 @@ permalink: /mix2morph/
 
 ## **Abstract**
 
-We introduce Mix2Morph, a text-to-audio diffusion model fine-tuned to perform sound morphing without a dedicated morph dataset. By finetuning on noisy surrogate mixes at higher diffusion timesteps, Mix2Morph yields stable, perceptually coherent morphs that convincingly integrate qualities of both sources. We specifically target sound infusion, a practically and perceptually motivated subclass of morphing in which one sound acts as the dominant primary source, providing overall temporal and structural behavior, while a secondary sound is infused throughout, enriching its timbral and textural qualities. Objective evaluations and listening tests show that Mix2Morph outperforms prior baselines and produces high-quality sound infusions across diverse categories, representing a step toward more controllable and creative tools for sound design.
+We introduce Mix2Morph, a text-to-audio diffusion model fine-tuned to perform sound morphing without a dedicated morph dataset. By finetuning on noisy surrogate mixes at higher diffusion timesteps, Mix2Morph yields stable, perceptually coherent morphs that convincingly integrate qualities of both sources. We specifically target sound infusion, a practically and perceptually motivated subclass of morphing in which one sound acts as the dominant primary source, providing overall temporal and structural behavior, while a secondary sound is infused throughout, enriching its timbral and textural qualities. Objective evaluations and [listening tests](https://www.notion.so/anniechu/Audio-Morphing-Study-2655467c942f801c9b8ccba92c168fb8?source=copy_link) show that Mix2Morph outperforms prior baselines and produces high-quality sound infusions across diverse categories, representing a step toward more controllable and creative tools for sound design.
 
 ## Mix2Morph Fig 1. Audio Examples (headphones recommended)
 
@@ -100,6 +100,9 @@ We introduce Mix2Morph, a text-to-audio diffusion model fine-tuned to perform so
 <div align="center">
   <h4>Prompt Template >> "behavior of <span class="primary">[primary source]</span> with timbre like <span class="secondary">[secondary source]</span>"</h4>
 </div>
+
+Samples pulled from listening study: Copy of listening study administered [here](https://www.notion.so/anniechu/Audio-Morphing-Study-2655467c942f801c9b8ccba92c168fb8?source=copy_link)
+
 
 <!-- 
 ### **Mix2Morph: Most Convincing**
@@ -290,4 +293,18 @@ _Listener Likert Ratings below audio (if applicable)_
   </tr>
 </table>
 
-### Note: If having trouble viewing samples, please [click here for backup link](https://anniechu.notion.site/mix2morph).
+### Note: If having trouble viewing samples, please [click here for backup link](https://anniechu.notion.site/mix2morph). 
+
+<!-- 
+---
+### Additional Ethics & Positionality statement:
+
+Additional Ethics & Positionality Statement
+
+Care and Positionality:
+This project is situated within a framework of care toward creative practitioners, with the aim of supporting sound designers in exploring new modes of sonic creativity. Our goal is to develop tools that facilitate sound transformation, shaping, and adaptation tasks that remain challenging to accomplish using existing methods. One such challenge is convincingly blending sound concepts together, leading us to the focus on sound infusions. We acknowledge that the current Mix2Morph system primarily enables the generation of static sound infusions, which limits its immediate applicability in interactive design contexts, and thus is not yet suitable for direct creative deployment. We also recognize that the present reliance on a text-based input modality may not align with the established practices of sound designers, whose workflows are typically grounded in auditory feedback and embodied listening (Kamath et al., 2024). Accordingly, while this work focuses on establishing foundational functionality, we encourage future research to prioritize controllability and real-time interactivity to enhance usability and creative agency; and similarly leverage participatory and co-design approaches to better align tool affordances with the needs and intuitions of creative users.
+
+Training Data:
+All data used for training and evaluation are licensed and ethically sourced, drawing exclusively from publicly available, CC–licensed datasets (e.g., Freesound) and selected licensed proprietary SFX datasets.
+
+-->
