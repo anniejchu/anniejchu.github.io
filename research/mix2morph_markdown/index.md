@@ -295,16 +295,13 @@ _Listener Likert Ratings below audio (if applicable)_
 
 ### Note: If having trouble viewing samples, please [click here for backup link](https://anniechu.notion.site/mix2morph). 
 
-<!-- 
+
 ---
-### Additional Ethics & Positionality statement:
+## Ethics & Positionality Statement
+_About_:
+This project is situated within a framework of care toward creative practitioners, with the aim of supporting sound designers in exploring new modes of sonic creativity. Our goal is to develop tools that facilitate sound transformation, shaping, and adaptation tasks that remain challenging to accomplish using existing methods. One such challenge is convincingly blending sound concepts together, leading us to the focus on sound infusions. We acknowledge that the current Mix2Morph system primarily enables the generation of static sound infusions, which limits its immediate applicability in interactive design contexts, and thus is not yet suitable for direct creative deployment. We also recognize that the present reliance on a text-based input modality may not align with the established practices of sound designers, whose workflows are typically grounded in auditory feedback and embodied listening [(Kamath et al., 2024)](https://dl.acm.org/doi/pdf/10.1145/3613904.3642040). Accordingly, while this work focuses on establishing foundational functionality, we encourage future research to prioritize controllability and real-time interactivity to enhance usability and creative agency; and similarly leverage participatory and co-design approaches to better align tool affordances with the needs and intuitions of creative users.
 
-Additional Ethics & Positionality Statement
+_Training Data:_
+All data used for training are licensed and ethically sourced, drawing exclusively from both publicly available, CC–licensed datasets (e.g., Freesound) and selected licensed proprietary SFX datasets.
 
-Care and Positionality:
-This project is situated within a framework of care toward creative practitioners, with the aim of supporting sound designers in exploring new modes of sonic creativity. Our goal is to develop tools that facilitate sound transformation, shaping, and adaptation tasks that remain challenging to accomplish using existing methods. One such challenge is convincingly blending sound concepts together, leading us to the focus on sound infusions. We acknowledge that the current Mix2Morph system primarily enables the generation of static sound infusions, which limits its immediate applicability in interactive design contexts, and thus is not yet suitable for direct creative deployment. We also recognize that the present reliance on a text-based input modality may not align with the established practices of sound designers, whose workflows are typically grounded in auditory feedback and embodied listening (Kamath et al., 2024). Accordingly, while this work focuses on establishing foundational functionality, we encourage future research to prioritize controllability and real-time interactivity to enhance usability and creative agency; and similarly leverage participatory and co-design approaches to better align tool affordances with the needs and intuitions of creative users.
 
-Training Data:
-All data used for training and evaluation are licensed and ethically sourced, drawing exclusively from publicly available, CC–licensed datasets (e.g., Freesound) and selected licensed proprietary SFX datasets.
-
--->
