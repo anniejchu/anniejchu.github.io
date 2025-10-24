@@ -21,7 +21,7 @@ title: Home
       <br><br>
       I'm currently at the <a href="https://interactiveaudiolab.github.io/">Interactive Audio Lab</a>, advised by Dr. Bryan Pardo. My research interests lie at the intersection of audio, deep learning, human-computer interaction, and computational musicology.
       <br><br>
-      Previously, I completed my B.S. in Electrical & Computer Engineering with a concentration in Media Arts at Olin College in Boston, MA. In my free time, you can find me walking around record shops, watching stand up, or playing bananagrams. I am also on the hunt for the best bagel in Chicago. 
+      Previously, I completed my B.S. in Electrical & Computer Engineering with a concentration in Media Arts at <a href="https://www.olin.edu/">Olin College of Engineering</a>. In my free time, you can find me walking around record shops, watching stand up, or playing bananagrams. As a native New Yorker (Queens!!!), I am also on the hunt for the best bagel in Chicago. Please email me if you find it.
       <br><br>
       You can reach me at anniechu [at] u.northwestern.edu
     </p>
