@@ -4,7 +4,7 @@ title: Research
 which_category: research
 permalink: /research/
 ---
-# Research tldr
+# tldr
 My primary research develops human-centered deep learning tools that support creative audio workflows—enabling practitioners to transform, shape, and generate sound through interfaces where the relationship between user input and sonic output is intuitive, expressive, and controllable. 
 
 Outside of this, I also look at how algorithmic systems reshape musical experience, bridging methods from HCI and computational musicology to examine questions of influence attribution, algorithmic mediation, and the broader social impacts of how we collectively listen to and engage with sound.
