@@ -34,6 +34,10 @@ title: Home
     <ul>
       <li>
         <span style="color: blue;"><strong>Sep 2025:</strong></span> 
+        Our work <em>Mix2Morph: Learning Sound Morphing from Noisy Mixes</em> was accepted at ICASSP 2026 (to be presented May 2026 in Barcelona!).
+      </li>
+      <li>
+        <span style="color: blue;"><strong>Sep 2025:</strong></span> 
         Our work <em>"Listening in the Age of the Algorithm: Bridging Musicology and HCI Methodologies"</em> was accepted at Clouds, Streams, and Ground (Truths) Conference, in March 2026.
       </li>
       <li>

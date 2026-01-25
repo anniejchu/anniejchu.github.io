@@ -13,7 +13,7 @@ Outside of this, I also look at how algorithmic systems reshape musical experien
 For a full list of my publications, please check out [Google Scholar](https://scholar.google.com/citations?user=vJu5VaAAAAAJ&hl=en&oi=ao) or my CV.
 
 ### Towards Expressive, Controllable Deep Learning Tools for Creative Audio Production
-- **TBA** (under review) — While interning at Adobe, I explored ways to blend sound concepts together. 
+- **Mix2Morph** (ICASSP 2026) — While interning at Adobe, I explored ways to blend sound concepts together! Demo page forthcoming ... 
 - [**Text2FX** (ICASSP 2025)](/text2fx) — How can we control audio FX like EQ and reverb using natural language descriptions instead of technical parameters? By leveraging the CLAP embedding space and differentiable signal processing, the system maps high-level semantic intent ("make this guitar warm and dreamy") to interpretable, refinable DSP parameters.
 - [**Text2EQ** (ISMIR LBD 2024)](/text2fx/text2eq) — Human-in-the-loop interface exploring interactive refinement of text-guided audio processing
 
