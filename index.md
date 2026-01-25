@@ -33,7 +33,7 @@ title: Home
     <h4 class="lead">Updates</h4>
     <ul>
       <li>
-        <span style="color: blue;"><strong>Sep 2025:</strong></span> 
+        <span style="color: blue;"><strong>Jan 2026:</strong></span> 
         Our work <em>Mix2Morph: Learning Sound Morphing from Noisy Mixes</em> was accepted at ICASSP 2026 (to be presented May 2026 in Barcelona!).
       </li>
       <li>
