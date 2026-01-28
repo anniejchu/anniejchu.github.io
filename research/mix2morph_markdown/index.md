@@ -74,14 +74,34 @@ permalink: /mix2morph/
 <hr> 
 
 <div style="text-align: center; font-weight: bold; font-style: italic;">
-  This is the supplementary page containing listening examples for the ICASSP 2026 paper submission “Mix2Morph: Learning Sound Morphing from Noisy Mixes”.
+  This is the supplementary page containing listening examples for ICASSP 2026 paper “Mix2Morph: Learning Sound Morphing from Noisy Mixes”.
+</div>
+
+<!-- <hr> -->
+
+<div style="text-align: center; margin: 10px 0;">
+  <a href="https://arxiv.org/abs/TBD" target="_blank" style="
+    display: inline-block;
+    padding: 8px 16px;      /* bigger button */
+    font-size: 14px;
+    color: rgb(222, 74, 33);
+    background-color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    border: 2px solid rgb(222, 74, 33);
+    transition: all 0.3s ease;
+  "
+  onmouseover="this.style.backgroundColor='rgb(222, 74, 33)'; this.style.color='white'; this.style.borderColor='rgb(200, 60, 20)'; this.style.boxShadow='0px 0px 10px rgba(222, 74, 33, 0.7)';"
+  onmouseout="this.style.backgroundColor='white'; this.style.color='rgb(222, 74, 33)'; this.style.borderColor='rgb(222, 74, 33)'; this.style.boxShadow='none';">
+    Paper (arXiv) TBD
+  </a>
 </div>
 
 <hr>
 
-## **Abstract**
 
-We introduce Mix2Morph, a text-to-audio diffusion model fine-tuned to perform sound morphing without a dedicated morph dataset. By finetuning on noisy surrogate mixes at higher diffusion timesteps, Mix2Morph yields stable, perceptually coherent morphs that convincingly integrate qualities of both sources. We specifically target sound infusion, a practically and perceptually motivated subclass of morphing in which one sound acts as the dominant primary source, providing overall temporal and structural behavior, while a secondary sound is infused throughout, enriching its timbral and textural qualities. Objective evaluations and [listening tests](https://www.notion.so/anniechu/Audio-Morphing-Study-2655467c942f801c9b8ccba92c168fb8?source=copy_link) show that Mix2Morph outperforms prior baselines and produces high-quality sound infusions across diverse categories, representing a step toward more controllable and creative tools for sound design.
+## **Abstract**
+We introduce Mix2Morph, a text-to-audio diffusion model fine-tuned to perform sound morphing without a dedicated dataset of morphs. By finetuning on noisy surrogate mixes at higher diffusion timesteps, Mix2Morph yields stable, perceptually coherent morphs that convincingly integrate qualities of both sources. We specifically target sound infusions, a practically and perceptually motivated subclass of morphing in which one sound acts as the dominant primary source, providing overall temporal and structural behavior, while a secondary sound is infused throughout, enriching its timbral and textural qualities. Objective evaluations and [listening tests](https://www.notion.so/anniechu/Audio-Morphing-Study-2655467c942f801c9b8ccba92c168fb8?source=copy_link) show that Mix2Morph outperforms prior baselines and produces high-quality sound infusions across diverse categories, representing a step toward more controllable and concept-driven tools for sound design.
 
 ## Mix2Morph Fig 1. Audio Examples (headphones recommended)
 

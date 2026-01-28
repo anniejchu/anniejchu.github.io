@@ -4,23 +4,39 @@ layout: page
 which_category: research
 permalink: /text2fx/
 ---
+<style>
+  sup {
+    font-size: 0.75em;
+    vertical-align: super;
+    line-height: 0;
+  }
+  .container {
+    max-width: 900px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0 auto; /* centers the container */
+  }
+</style>
+
 <head>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 
-<!-- ## Text2FX -->
-<p align="center"> <strong><font size="5">Text2FX: Harnessing CLAP Embeddings for Text-Guided Audio Effects</font></strong> </p>
-<p align="center"><font size="3"><u>Annie Chu</u>, Patrick O'Reilly, Julia Barnett, Bryan Pardo</font></p>
-<p align="center"><font size="3">Northwestern University</font></p>
 
-<!-- #### Key Goal
-How can we apply audio FX (e.g., EQ, reverb, etc) with any natural language prompt (e.g., make this 'warm and cozy')? -->
+<!-- ## Text2FX -->
+<div class="container">
+  <p align="center"> <strong><font size="5">Text2FX: Harnessing CLAP Embeddings for Text-Guided Audio Effects</font></strong> </p>
+  <p align="center"><font size="3"><u>Annie Chu</u>, Patrick O'Reilly, Julia Barnett, Bryan Pardo</font></p>
+  <p align="center"><font size="3">Northwestern University</font></p>
+</div>
+
 
 <div align="center">
   <a href="https://arxiv.org/abs/2409.18847" target="_blank" style="
     display: inline-block;
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 8px 16px;
+    font-size: 14px;
     color: rgb(222, 74, 33);
     background-color: white;
     text-decoration: none;
@@ -37,8 +53,8 @@ How can we apply audio FX (e.g., EQ, reverb, etc) with any natural language prom
       display: inline-flex;
       align-items: center;
       gap: 8px;
-      padding: 10px 20px;
-      font-size: 16px;
+      padding: 8px 16px;
+      font-size: 14px;
       color: rgb(25, 118, 210); /* Blue text */
       background-color: white;
       text-decoration: none;
@@ -101,76 +117,72 @@ We employ single-instance optimization (also referenced as inference-time optimi
 - Text2FX-cosine (left): directly minimizes the cosine distance between the optimized audio embedding and the target text embedding
 - Text2FX-directional (right): leverages the directional relationship between two text-audio embedding pairs, guiding the optimized audio embedding to move in the direction defined by the difference between the target text and a contrasting text prompt.
 
-  <!-- <div style="flex: 3 1 0%; max-width: 100%;"> -->
- <img src="/research/text2fx/img/Text2FX_Hero_small_fonts.png" alt="Large Image" style="width: 100%; height: auto; border-radius: 8px;">
-  <!-- </div> -->
+<div style="flex: 3 1 0%; max-width:75%;margin: 0 auto;">
+  <img src="/research/text2fx/img/Text2FX_Hero_small_fonts.png"
+      alt="Large Image"
+      style="display:block; margin: 0 auto; width: min(900px, 100%); height:auto; border-radius: 8px;">
+</div>
+
+<br> 
 
 ##### Example Optimization (Ex.1)
-  <!-- Left Column: Large Image -->
-<div style="display: flex; gap: 0px;">
+<div style="display:flex; justify-content:center; gap:8px; align-items:flex-start;">
+
 
   <!-- Left Column: Large Image -->
-  <div style="flex: 3 1 0%; max-width: 75%;">
-    <img src="/research/text2fx/img/optimization_example.png" alt="Large Image" style="width: 100%; height: auto; border-radius: 8px;">
+  <div style="flex: 3 1 0%; max-width:55%;">
+    <img src="/research/text2fx/img/optimization_example.png"
+         alt="Large Image"
+         style="width: 100%; height: auto; border-radius: 8px; display: block;">
   </div>
 
   <!-- Right Column: Table of Audio Examples -->
-  <div style="flex: 1 1 0%; max-width: 25%;">
+  <!-- <div style="flex: 1 1 0%; max-width: 25%;"> -->
+  <div style="flex: 1 1 0; max-width: 260px;">
     <table style="width: 100%; border-collapse: collapse;">
       <tr>
-        <!-- <th style="text-align: left; padding-right: 0px; font-size: 10px;">Iter #</th>
-        <th style="text-align: left; font-size: 10px;">Audio</th> -->
-      </tr>
-
-      <!-- Row 1 -->
-      <tr>
-        <td style="font-size: 12px; padding-bottom: 10px; color: darkred;"><strong>Iteration 0 (randomly applied FX)</strong></td>
-        <td style="padding-bottom: 20px;">
-          <audio controls>
+        <td style="padding: 0 0 12px 0;">
+          <div style="font-size: 12px; margin-bottom: 6px; color: darkred;">
+            <strong>Iteration 0 (randomly applied FX)</strong>
+          </div>
+          <audio controls style="width: 100%; display: block;">
             <source src="/research/text2fx/audio/EQ_only/bright_guitar/guitar_start.wav" type="audio/mpeg">
-            Your browser does not support the audio element.
           </audio>
         </td>
       </tr>
 
-      <!-- Row 2 -->
       <tr>
-        <td style="font-size: 12px; padding-bottom: 10px; color: darkgreen;"><strong>Iteration 200 (mid-optimization)</strong></td>
-        <td style="padding-bottom: 20px;">
-          <audio controls>
+        <td style="padding: 0 0 12px 0;">
+          <div style="font-size: 12px; margin-bottom: 6px; color: darkgreen;">
+            <strong>Iteration 200 (mid-optimization)</strong>
+          </div>
+          <audio controls style="width: 100%; display: block;">
             <source src="/research/text2fx/audio/EQ_only/bright_guitar/guitar_200.wav" type="audio/mpeg">
-            Your browser does not support the audio element.
           </audio>
         </td>
       </tr>
 
-      <!-- Row 3 -->
       <tr>
-        <td style="font-size: 12px; padding-bottom: 10px; color: darkpurple;"><strong>Iteration 600 (end)</strong></td>
-        <td style="padding-bottom: 20px;">
-          <audio controls>
+        <td style="padding: 0;">
+          <div style="font-size: 12px; margin-bottom: 6px; color: purple;">
+            <strong>Iteration 600 (end)</strong>
+          </div>
+          <audio controls style="width: 100%; display: block;">
             <source src="/research/text2fx/audio/EQ_only/bright_guitar/guitar_600.wav" type="audio/mpeg">
-            Your browser does not support the audio element.
           </audio>
         </td>
       </tr>
-
     </table>
   </div>
 
 </div>
 
 
+
 <style>
-    img {
-    width: 100%; /* Set to 100% of the container width */
-    max-width: 500px; /* Set the maximum width of the image */
-    height: auto; /* Maintain the aspect ratio */
-    margin-bottom: 1px; /* Add space between the image and audio widget */
-    }
     video {
     width: 100%; /* Set to 100% of the container width */
-    max-width: 800px8; /* Set the maximum width of the video */
+    max-width: 800px; /* Set the maximum width of the video */
     height: auto; /* Maintain the aspect ratio */
     margin-bottom: 1px; /* Add space between the video and audio widget */
     display: block; /* Center the video */
