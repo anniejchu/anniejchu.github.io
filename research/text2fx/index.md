@@ -12,10 +12,11 @@ permalink: /text2fx/
   }
   .container {
     max-width: 900px;
-    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
     font-size: 14px;
     line-height: 1.5;
     margin: 0 auto; /* centers the container */
+    margin-bottom: -2em;
   }
 </style>
 
@@ -24,12 +25,20 @@ permalink: /text2fx/
 </head>
 
 
+
 <!-- ## Text2FX -->
 <div class="container">
   <p align="center"> <strong><font size="5">Text2FX: Harnessing CLAP Embeddings for Text-Guided Audio Effects</font></strong> </p>
   <p align="center"><font size="3"><u>Annie Chu</u>, Patrick O'Reilly, Julia Barnett, Bryan Pardo</font></p>
   <p align="center"><font size="3">Northwestern University</font></p>
 </div>
+
+<hr> 
+
+<p align="center"><font size="3" color="blue">ICASSP 2025</font></p>
+
+<hr> 
+
 
 
 <div align="center">
@@ -67,26 +76,8 @@ permalink: /text2fx/
     <i class="fa-brands fa-github"></i>
     Github
   </a>
-  <!-- <button style="
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 16px;
-    color: white;
-    background-color: #6c757d;
-    text-decoration: none;
-    border-radius: 5px;
-    border: none;
-    cursor: not-allowed;
-  ">
-    Github (soon)
-  </button> -->
 </div>
 
-<hr> 
-
-<p align="center"><font size="3" color="blue">Accepted to ICASSP 2025</font></p>
-
-<hr> 
 
 
 #### Abstract

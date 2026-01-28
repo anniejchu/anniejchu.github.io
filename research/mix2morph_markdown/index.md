@@ -12,7 +12,7 @@ permalink: /mix2morph/
     }
     .container {
     max-width: 1200px;   /* wider container just for this page */
-    font-family: "Helvetica Neue", Arial, sans-serif; /* swap in your font */
+    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
     font-size: 14px;     /* optional: adjust size */
     line-height: 1.5;    /* optional: improve readability */
     }
