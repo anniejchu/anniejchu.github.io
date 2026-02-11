@@ -1,7 +1,7 @@
 # Site settings
 title_left    : "Annie Chu"
 title_right   : "" # default: ""
-description   : "Annie's Website"
+description   : ""
 keywords      : "northwestern, phd"
 url           : https://anniejchu.github.io # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
