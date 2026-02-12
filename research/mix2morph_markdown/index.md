@@ -1,6 +1,6 @@
 ---
 layout: page
-# title: Text2FX
+title: Mix2Morph
 which_category: research
 permalink: /mix2morph/
 ---

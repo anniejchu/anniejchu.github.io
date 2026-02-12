@@ -1,6 +1,6 @@
 ---
 layout: page
-# title: Text2FX
+title: Text2EQ
 which_category: research
 permalink: /text2fx/text2eq/
 ---
