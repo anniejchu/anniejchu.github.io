@@ -55,7 +55,7 @@ title: Home
     <ul>
       <li>
         <span style="color: blue;"><strong>Jan 2026:</strong></span> 
-        Our work <em>Mix2Morph: Learning Sound Morphing from Noisy Mixes</em> was accepted at ICASSP 2026 (to be presented May 2026 in Barcelona!).
+        Our work <em><a href="mix2morph/">Mix2Morph</a>: Learning Sound Morphing from Noisy Mixes</em> was accepted at ICASSP 2026 (to be presented May 2026 in Barcelona!).
       </li>
       <li>
         <span style="color: blue;"><strong>Sep 2025:</strong></span> 
@@ -75,11 +75,9 @@ title: Home
       </li>
       <li>
         <span style="color: blue;"><strong>April 2025:</strong></span> 
-        Presented our work <em>Text2FX</em> at ICASSP 2025! 
+        Presented our work <em><a href="text2fx/">Text2FX</a></em> at ICASSP 2025! 
         Check out the 
-        <a href="https://arxiv.org/abs/2409.18847">paper (arXiv)</a> 
-        and the 
-        <a href="text2fx/">demo page</a>.
+        <a href="https://arxiv.org/abs/2409.18847">paper (arXiv)</a>.
       </li>
     </ul>
   </div>
