@@ -54,6 +54,10 @@ title: Home
     <h4 class="lead">Updates</h4>
     <ul>
       <li>
+        <span style="color: blue;"><strong>April 2026:</strong></span> 
+        Our work <em>FXplorer</em> was accepted to NIME 2026! Learn more <a href="fxplorer/">here</a>.
+      </li>
+      <li>
         <span style="color: blue;"><strong>Jan 2026:</strong></span> 
         Our work <em>Mix2Morph: Learning Sound Morphing from Noisy Mixes</em> was accepted at ICASSP 2026 (to be presented May 2026 in Barcelona!). See <a href="mix2morph/">demo page</a>.
       </li>
