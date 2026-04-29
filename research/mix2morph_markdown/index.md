@@ -66,35 +66,37 @@ permalink: /mix2morph/
   <sup>1</sup>Adobe Research; <sup>2</sup>Northwestern University
 </p>
 
-
 <hr> 
 
-<div style="text-align: center; font-weight: bold; font-style: italic;">
-  This is the supplementary page containing listening examples for ICASSP 2026 paper “Mix2Morph: Learning Sound Morphing from Noisy Mixes”.
-</div>
-
-<!-- <hr> -->
-
 <div style="text-align: center; margin: 10px 0;">
+  <span style="
+    font-size: 16px;
+    color: blue;
+    margin-right: 12px;
+  ">
+    Accepted to ICASSP 2026
+  </span>
+
   <a href="http://arxiv.org/abs/2601.20426" target="_blank" style="
     display: inline-block;
-    padding: 8px 16px;      /* bigger button */
+    padding: 8px 16px;
     font-size: 14px;
-    color: rgb(222, 74, 33);
-    background-color: white;
+    font-weight: bold;
+    color: #5308f5;
+    background-color: #f1edff;
     text-decoration: none;
-    border-radius: 6px;
-    border: 2px solid rgb(222, 74, 33);
-    transition: all 0.3s ease;
+    border-radius: 8px;
+    border: 2px solid #5308f5;
+    box-shadow: 0px 2px 8px rgba(83, 8, 245, 0.18);
+    transition: all 0.25s ease;
   "
-  onmouseover="this.style.backgroundColor='rgb(222, 74, 33)'; this.style.color='white'; this.style.borderColor='rgb(200, 60, 20)'; this.style.boxShadow='0px 0px 10px rgba(222, 74, 33, 0.7)';"
-  onmouseout="this.style.backgroundColor='white'; this.style.color='rgb(222, 74, 33)'; this.style.borderColor='rgb(222, 74, 33)'; this.style.boxShadow='none';">
-    Paper (arXiv)
+  onmouseover="this.style.backgroundColor='#5308f5'; this.style.color='white'; this.style.boxShadow='0px 4px 14px rgba(83, 8, 245, 0.4)';"
+  onmouseout="this.style.backgroundColor='#f1edff'; this.style.color='#5308f5'; this.style.boxShadow='0px 2px 8px rgba(83, 8, 245, 0.18)';">
+    Paper ↗
   </a>
 </div>
 
 <hr>
-
 
 ## **Abstract**
 We introduce Mix2Morph, a text-to-audio diffusion model fine-tuned to perform sound morphing without a dedicated dataset of morphs. By finetuning on noisy surrogate mixes at higher diffusion timesteps, Mix2Morph yields stable, perceptually coherent morphs that convincingly integrate qualities of both sources. We specifically target sound infusions, a practically and perceptually motivated subclass of morphing in which one sound acts as the dominant primary source, providing overall temporal and structural behavior, while a secondary sound is infused throughout, enriching its timbral and textural qualities. Objective evaluations and [listening tests](https://www.notion.so/anniechu/Audio-Morphing-Study-2655467c942f801c9b8ccba92c168fb8?source=copy_link) show that Mix2Morph outperforms prior baselines and produces high-quality sound infusions across diverse categories, representing a step toward more controllable and concept-driven tools for sound design.
