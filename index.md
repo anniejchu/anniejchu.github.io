@@ -24,12 +24,47 @@ title: Home
     margin-bottom: 10px;    /* space between updates */
   }
 
+  .photo-magazine {
+    position: relative;
+    float: left;
+    /* margin: 4px 1.5rem 1rem 1rem; */
+    margin: 0 1.5rem 1rem 0;
+    width: 185px;
+  }
+
+  .photo-magazine img {
+    display: block;
+    width: 100%;
+    /* filter: saturate(0.20) brightness(1.15) contrast(0.85) sepia(0.40); */
+  }
+
+  .photo-magazine::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(230, 218, 190, 0.30);
+    mix-blend-mode: multiply;
+    pointer-events: none;
+  }
 
 </style>
 
 <section class="intro">
+  <svg style="display:none">
+    <defs>
+      <filter id="grain">
+        <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch" result="noise"/>
+        <feColorMatrix type="saturate" values="0" in="noise" result="grayNoise"/>
+        <feBlend in="SourceGraphic" in2="grayNoise" mode="overlay" result="blended"/>
+        <feComposite in="blended" in2="SourceGraphic" operator="in"/>
+      </filter>
+    </defs>
+  </svg>
   <div class="container">
     <h4 class="lead">Hello!</h4>
+    <div class="photo-magazine">
+      <img src="/assets/images/me.jpg" alt="Annie Chu" />
+    </div>
     <p class="lead">
       I'm Annie (she/her), a 3rd year PhD student at Northwestern University in the <a href="https://tsb.northwestern.edu/">Technology & Social Behavior</a> program, a dual PhD
       program in Computer Science and Communications.
