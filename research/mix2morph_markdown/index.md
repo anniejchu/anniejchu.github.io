@@ -81,6 +81,7 @@ permalink: /mix2morph/
     display: inline-block;
     padding: 8px 16px;
     font-size: 14px;
+    font-family: Helvetica;
     font-weight: bold;
     color: #5308f5;
     background-color: #f1edff;
@@ -286,7 +287,6 @@ _Listener Likert Ratings below audio (if applicable)_
 
 ### Note: If having trouble viewing samples, please [click here for backup link](https://anniechu.notion.site/mix2morph). 
 
-
 ---
 ## Ethics & Positionality Statement
 _About_:
@@ -295,3 +295,20 @@ This project is situated within a framework of care toward creative practitioner
 _Training Data:_
 All data used for training and evaluation are licensed and ethically sourced, drawing exclusively from publicly available, CC–licensed datasets and selected licensed proprietary SFX datasets.
 
+---
+## At a quick glance
+
+<div style="text-align: center; margin: 24px 0;">
+  <iframe
+    src="/research/mix2morph_markdown/assets/mix2morph_poster.pdf"
+    width="90%"
+    height="800px"
+    style="border: 1px solid #ccc; border-radius: 8px;">
+  </iframe>
+
+  <p>
+    <a href="/research/mix2morph_markdown/assets/mix2morph_poster.pdf" target="_blank">
+      Open poster in a new tab ↗
+    </a>
+  </p>
+</div>
