@@ -31,6 +31,10 @@
 </url>
 <url>
 <loc>http://localhost:4000/assets/052026_CV.pdf</loc>
+<lastmod>2026-05-25T11:58:01-05:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/assets/052026_CV_old.pdf</loc>
 <lastmod>2026-05-04T05:16:46-05:00</lastmod>
 </url>
 <url>
@@ -48,6 +52,10 @@
 <url>
 <loc>http://localhost:4000/google9f85e1c28585cc7a.html</loc>
 <lastmod>2026-02-12T11:28:05-06:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/research/fxplorer/assets/NIME26_FXplorer_cm.pdf</loc>
+<lastmod>2026-06-06T13:30:29-05:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/research/mix2morph_markdown/assets/mix2morph_poster.pdf</loc>
