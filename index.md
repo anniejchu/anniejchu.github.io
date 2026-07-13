@@ -89,6 +89,14 @@ title: Home
     <h4 class="lead">Updates</h4>
     <ul>
       <li>
+        <span style="color: blue;"><strong>July 2026:</strong></span> 
+        Our work <em>SMORPH: Playable Sound Morphing with Diffusion Models </em> was accepted to ISMIR 2026! Check out the <a href="https://smorphspace.github.io/">demo page.</a>  
+      </li>
+      <li>
+        <span style="color: blue;"><strong>July 2026:</strong></span> 
+        <em>D-Composer: Language Modeling for Simultaneous Drum Transcription and Sound Event Decomposition</em>, work led by <a href="https://oreillyp.github.io/">Patrick O'Reilly</a> was accepted to ISMIR 2026! Check out the <a href="https://d-composer.github.io/">demo page.</a> 
+      </li>
+      <li>
         <span style="color: blue;"><strong>April 2026:</strong></span> 
         Our work <em>FXplorer</em> was accepted to NIME 2026! Learn more <a href="fxplorer/">here</a>.
       </li>
