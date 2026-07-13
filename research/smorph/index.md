@@ -61,7 +61,7 @@ permalink: /smorph/
 </div>
 
 <div align="center">
-  <a href="" target="_blank" style="
+  <a target="_blank" style="
     display: inline-block;
     padding: 8px 16px;
     font-size: 14px;
@@ -78,7 +78,8 @@ permalink: /smorph/
     Paper (coming soon...)
   </a>
 
-<a href="https://smorphspace.github.io/" target="_blank" style="
+<a 
+target="_blank" style="
     display: inline-block;
     padding: 8px 16px;
     font-size: 14px;
