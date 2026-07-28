@@ -90,7 +90,7 @@ title: Home
     <ul>
       <li>
         <span style="color: blue;"><strong>July 2026:</strong></span> 
-        Our work <em>SMORPH: Playable Sound Morphing with Diffusion Models </em> was accepted to ISMIR 2026! Check out the <a href="https://smorphspace.github.io/">demo page.</a>  
+        Our work <em>SMORPH: Playable Sound Morphing with Diffusion Models </em> was accepted to ISMIR 2026!</a>  
       </li>
       <li>
         <span style="color: blue;"><strong>July 2026:</strong></span> 
