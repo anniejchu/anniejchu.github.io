@@ -13,7 +13,7 @@ Outside of this, I also look at how algorithmic systems reshape musical experien
 For a full list of my publications, please check out [Google Scholar](https://scholar.google.com/citations?user=vJu5VaAAAAAJ&hl=en&oi=ao) or my CV.
 
 ### Towards Expressive, Controllable Deep Learning Tools for Creative Audio Production
-- **SMORPH** (ISMIR 2026) - Sound morphing in playable form
+- **Smorph** (ISMIR 2026) - Sound morphing in playable form
 - [**Mix2Morph**](/mix2morph) (ICASSP 2026) - While interning at Adobe, I explored ways to repurpose TTA diffusion models for sound morphing.
 - [**Text2FX**](/text2fx) (ICASSP 2025) - How can we control audio FX like EQ and reverb using natural language descriptions instead of technical parameters? By leveraging the CLAP embedding space and differentiable signal processing, the system maps high-level semantic intent ("make this guitar warm and dreamy") to interpretable, refinable DSP parameters.
 

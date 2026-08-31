@@ -66,8 +66,7 @@ title: Home
       <img src="/assets/images/me.jpg" alt="Annie Chu" />
     </div>
     <p class="lead">
-      I'm Annie (she/her), a 3rd year PhD student at Northwestern University in the <a href="https://tsb.northwestern.edu/">Technology & Social Behavior</a> program, a dual PhD
-      program in Computer Science and Communications.
+      I'm Annie (she/her), a 4th year PhD student at Northwestern University in the <a href="https://tsb.northwestern.edu/">Technology & Social Behavior</a> program, a dual PhD program in Computer Science and Communications.
     </p>
 
     <p class="lead">
@@ -90,7 +89,7 @@ title: Home
     <ul>
       <li>
         <span style="color: blue;"><strong>July 2026:</strong></span> 
-        Our work <em>SMORPH: Playable Sound Morphing with Diffusion Models </em> was accepted to ISMIR 2026!
+        Our work <em>Smorph: Playable Sound Morphing with Diffusion Models </em> was accepted to ISMIR 2026!
       </li>
       <li>
         <span style="color: blue;"><strong>July 2026:</strong></span> 
