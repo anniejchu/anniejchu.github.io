@@ -60,7 +60,7 @@ permalink: /fxplorer/
 </div>
 
 <div align="center">
-  <a href="{{ '/research/fxplorer/assets/NIME26_Fxplorer_cm.pdf' | relative_url }}" target="_blank" style="
+  <a href="https://arxiv.org/abs/2606.08286" target="_blank" style="
     display: inline-block;
     padding: 8px 16px;
     font-size: 14px;
