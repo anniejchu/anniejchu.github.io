@@ -69,11 +69,11 @@ permalink: /fxplorer/
     text-decoration: none;
     border-radius: 5px;
     border: 2px solid rgb(222, 74, 33);
-    transition: all 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease;
     margin-right: 8px;
   "
-  onmouseover="this.style.backgroundColor='rgb(222, 74, 33)'; this.style.color='white'; this.style.borderColor='rgb(200, 60, 20)'; this.style.boxShadow='0px 0px 10px rgba(222, 74, 33, 0.7)';"
-  onmouseout="this.style.backgroundColor='white'; this.style.color='rgb(222, 74, 33)'; this.style.borderColor='rgb(222, 74, 33)'; this.style.boxShadow='none';">
+  onmouseover="this.style.backgroundColor='rgb(222, 74, 33)'; this.style.color='white';"
+  onmouseout="this.style.backgroundColor='white'; this.style.color='rgb(222, 74, 33)';">
     Paper
   </a>
 
@@ -88,10 +88,10 @@ permalink: /fxplorer/
     text-decoration: none;
     border-radius: 5px;
     border: 2px solid rgb(25, 118, 210);
-    transition: all 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease;
   "
-  onmouseover="this.style.backgroundColor='rgb(25, 118, 210)'; this.style.color='white'; this.style.borderColor='rgb(20, 100, 180)'; this.style.boxShadow='0px 0px 10px rgba(25, 118, 210, 0.7)';"
-  onmouseout="this.style.backgroundColor='white'; this.style.color='rgb(25, 118, 210)'; this.style.borderColor='rgb(25, 118, 210)'; this.style.boxShadow='none';">
+  onmouseover="this.style.backgroundColor='rgb(25, 118, 210)'; this.style.color='white';"
+  onmouseout="this.style.backgroundColor='white'; this.style.color='rgb(25, 118, 210)';">
     <i class="fa-brands fa-github"></i>
     GitHub
   </a>

@@ -88,11 +88,10 @@ permalink: /mix2morph/
     text-decoration: none;
     border-radius: 8px;
     border: 2px solid #5308f5;
-    box-shadow: 0px 2px 8px rgba(83, 8, 245, 0.18);
-    transition: all 0.25s ease;
+    transition: background-color 0.25s ease, color 0.25s ease;
   "
-  onmouseover="this.style.backgroundColor='#5308f5'; this.style.color='white'; this.style.boxShadow='0px 4px 14px rgba(83, 8, 245, 0.4)';"
-  onmouseout="this.style.backgroundColor='#f1edff'; this.style.color='#5308f5'; this.style.boxShadow='0px 2px 8px rgba(83, 8, 245, 0.18)';">
+  onmouseover="this.style.backgroundColor='#5308f5'; this.style.color='white';"
+  onmouseout="this.style.backgroundColor='#f1edff'; this.style.color='#5308f5';">
     Paper
   </a>
 </div>
