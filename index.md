@@ -77,7 +77,7 @@ title: Home
       </div>
       <div class="tl-row g">
         <div class="tl-date">Aug 2026</div>
-        <div class="tl-item">Taught <a href="teaching/cs352/">CS352: Machine Perception of Music & Audio</a> as Instructor of Record (Summer 2026)</div>
+        <div class="tl-item">Taught <a href="teaching/cs352.html">CS352: Machine Perception of Music & Audio</a> as Instructor of Record (Summer 2026)</div>
       </div>
       <div class="tl-row r">
         <div class="tl-date">July 2026</div>
