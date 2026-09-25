@@ -122,7 +122,7 @@ We introduce Mix2Morph, a text-to-audio diffusion model fine-tuned to perform so
 Samples pulled from listening study: Copy of listening study administered [here](https://www.notion.so/anniechu/Audio-Morphing-Study-2655467c942f801c9b8ccba92c168fb8?source=copy_link)
 
 
-<h3><strong><u>Mix2Morph: Most Convincing</u></strong></h3>
+<h3><strong>Mix2Morph: Most Convincing</strong></h3>
 
 _Listener Likert Ratings below audio (if applicable)_
 
@@ -218,7 +218,7 @@ _Listener Likert Ratings below audio (if applicable)_
   </tr>
 </table>
 
-<h3><strong><u>Mix2Morph: Least Convincing</u></strong></h3>
+<h3><strong>Mix2Morph: Least Convincing</strong></h3>
 _Listener Likert Ratings below audio (if applicable)_
 
 

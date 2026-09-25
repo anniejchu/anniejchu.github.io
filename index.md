@@ -87,22 +87,22 @@ title: Home
         <div class="tl-date">July 2026</div>
         <div class="tl-item"><em>D-Composer: Language Modeling for Simultaneous Drum Transcription and Sound Event Decomposition</em>, work led by <a href="https://oreillyp.github.io/">Patrick O'Reilly</a> was accepted to ISMIR 2026! Check out the <a href="https://d-composer.github.io/">demo page.</a></div>
       </div>
+      <div class="tl-row g">
+        <div class="tl-date">July 2026</div>
+        <div class="tl-item">Presented our work-in-progress paper, <em>SLIME: Streaming Listener Index of Musical Experience</em> at SMPC 2026</div>
+      </div>
       <div class="tl-row r">
         <div class="tl-date">April 2026</div>
         <div class="tl-item">Our work <em>FXplorer</em> was accepted to NIME 2026! Learn more <a href="fxplorer/">here</a>.</div>
       </div>
       <div class="tl-row g">
         <div class="tl-date">March 2025</div>
-        <div class="tl-item">Presented our work-in-progress paper, <em>Listening in the Age of the Algorithm: Bridging Musicology and HCI Methodologies</em> at Clouds, Streams, and Ground (Truths) Conference 2026 in Berkeley, CA.</div>
+        <div class="tl-item">Presented <em>Listening in the Age of the Algorithm: Bridging Musicology and HCI Methodologies</em> at Clouds, Streams, and Ground (Truths) Conference 2026 in Berkeley, CA.</div>
       </div>
       <div class="tl-row r">
         <div class="tl-date">Jan 2026</div>
         <div class="tl-item">Our work <em>Mix2Morph: Learning Sound Morphing from Noisy Mixes</em> was accepted at ICASSP 2026 (to be presented May 2026 in Barcelona!). See <a href="mix2morph/">demo page</a>.</div>
       </div>
-      <!-- <div class="tl-row r">
-        <div class="tl-date">Sep 2025</div>
-        <div class="tl-item">Our work <em>Listening in the Age of the Algorithm: Bridging Musicology and HCI Methodologies</em> was accepted at Clouds, Streams, and Ground (Truths) Conference, in March 2026.</div>
-      </div> -->
       <div class="tl-row g">
         <div class="tl-date">Summer 2025</div>
         <div class="tl-item">Interned at Adobe SODA (Sound Design AI group)</div>

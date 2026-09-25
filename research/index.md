@@ -25,4 +25,4 @@ For a full list of my publications, please check out [Google Scholar](https://sc
 
 
 ### Understanding Music in the Age of Algorithms
-- **Listening in the Age of the Algorithm (ongoing)** — A collaboration with [NOISE](https://sites.northwestern.edu/noise/people/) lab, This work examines how recommendation systems on streaming platforms shape musical discovery and listening behavior, aiming to understand algorithmic mediation's impact on musical culture and listening practices (presented at *Clouds, Streams, and Ground Truths 2026*; SMPC 2026).
+- **SLIME: Streamed Listener Index of Musical Experience (ongoing)** — A collaboration with [NOISE](https://sites.northwestern.edu/noise/people/) lab, This work examines how recommendation systems on streaming platforms shape musical discovery and listening behavior, aiming to understand algorithmic mediation's impact on musical culture and listening practices (presented at *Clouds, Streams, and Ground Truths 2026*; SMPC 2026).

@@ -124,8 +124,12 @@ h1, h2, h3, h4 {
   text-decoration: underline;
   text-decoration-color: rgba($highlight, .8);
   text-decoration-thickness: .45em;   // height of the band
-  text-underline-offset: -.3em;       // negative = pulled up behind the text
+  text-underline-offset: -.2em;       // negative = pulled up behind the text
   text-decoration-skip-ink: none;     // don't break around g, p, y
 }
 
 .logo { text-decoration: none; }
+
+.project .page-content {
+  h1, h2, h3, h4 { text-decoration: none; }
+}
