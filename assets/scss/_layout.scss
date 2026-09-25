@@ -307,3 +307,12 @@ hr {
   overflow-x: auto;  // allow scrolling if still too wide
   margin: 0 auto;
 }
+
+// Project pages: Inter body, DM Mono headings
+.container.project {
+  font-family: $sans-font-family;
+  font-weight: $sans-font-weight;
+}
+
+.logo a { color: $accent; }
+.logo a:hover { color: shade($accent, 20%); }

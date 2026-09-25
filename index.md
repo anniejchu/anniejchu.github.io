@@ -4,12 +4,6 @@ title: Home
 ---
 
 <style>
-  /* a {
-    color: #0066cc;
-  }
-  a:hover {
-    color: #004499;
-  } */
   .container p {
     /* line-height: 1.4; */
     /* margin-bottom: 1.0em; was 25 px  */
@@ -88,8 +82,16 @@ title: Home
     <h4 class="lead">Updates</h4>
     <ul>
       <li>
+        <span style="color: blue;"><strong>Sep 2026:</strong></span> 
+        I wrote a book review of Seth Long’s <em>The Last Mixtape: Physical Media and Nostalgic Cycles</em> for the <a href="https://iaspmjournal.net/" target="_blank">IASPM Journal</a>.
+      </li>
+      <li>
+        <span style="color: blue;"><strong>Aug 2026:</strong></span> 
+        Taught <a href="teaching/cs352/">CS352: Machine Perception of Music & Audio</a> as Instructor of Record (Summer 2026)
+      </li>
+      <li>
         <span style="color: blue;"><strong>July 2026:</strong></span> 
-        Our work <em>Smorph: Playable Sound Morphing with Diffusion Models </em> was accepted to ISMIR 2026!
+        Our work <em>Smorph: Playable Sound Morphing with Diffusion Models</em> was accepted to ISMIR 2026!
       </li>
       <li>
         <span style="color: blue;"><strong>July 2026:</strong></span> 

@@ -3,6 +3,7 @@ layout: page
 title: FXplorer
 which_category: research
 permalink: /fxplorer/
+page_class: project
 ---
 <!-- <style>
   sup {

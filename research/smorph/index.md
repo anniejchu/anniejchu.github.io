@@ -3,6 +3,7 @@ layout: page
 title: smorph
 which_category: research
 permalink: /smorph/
+page_class: project
 ---
 <!-- <style>
   sup {

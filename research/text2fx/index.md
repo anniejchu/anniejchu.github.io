@@ -3,6 +3,7 @@ layout: page
 title: Text2FX
 which_category: research
 permalink: /text2fx/
+page_class: project
 ---
 <style>
   sup {
@@ -12,7 +13,6 @@ permalink: /text2fx/
   }
   .container {
     max-width: 900px;
-    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
     font-size: 14px;
     line-height: 1.5;
     margin: 0 auto; /* centers the container */

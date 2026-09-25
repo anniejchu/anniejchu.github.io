@@ -3,6 +3,7 @@ layout: page
 title: Mix2Morph
 which_category: research
 permalink: /mix2morph/
+page_class: project
 ---
 <style>
     sup {
@@ -12,7 +13,7 @@ permalink: /mix2morph/
     }
     .container {
     max-width: 1200px;   /* wider container just for this page */
-    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    /* font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif; */
     font-size: 14px;     /* optional: adjust size */
     line-height: 1.5;    /* optional: improve readability */
     }
@@ -29,7 +30,7 @@ permalink: /mix2morph/
   table.custom-table {
     border-collapse: collapse;
     width: 100%;
-    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    /* font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif; */
     line-height: 1.1;    /* optional: improve readability */
 
   }
@@ -81,7 +82,6 @@ permalink: /mix2morph/
     display: inline-block;
     padding: 8px 16px;
     font-size: 14px;
-    font-family: Helvetica;
     font-weight: bold;
     color: #5308f5;
     background-color: #f1edff;

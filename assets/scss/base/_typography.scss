@@ -20,26 +20,11 @@ h6 {
   font-weight: $bold-font-weight; // AC just added 9/24, was 700
 }
 
-h1 {
-  font-size: rem(30);
-}
-
-h2 {
-  font-size: rem(26);
-}
-
-h3 {
-  font-size: rem(24);
-}
-
-h4 {
-  font-size: rem(20);
-}
-
-h5,
-h6 {
-  font-size: rem(16);
-}
+h1 { font-size: rem($h1-size); }
+h2 { font-size: rem($h2-size); }
+h3 { font-size: rem($h3-size); }
+h4 { font-size: rem($h4-size); }
+h5, h6 { font-size: rem($h5-size); }
 
 p {
   // margin: 0 0 $small-spacing;
