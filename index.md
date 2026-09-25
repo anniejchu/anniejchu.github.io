@@ -4,15 +4,15 @@ title: Home
 ---
 
 <style>
-  a {
+  /* a {
     color: #0066cc;
   }
   a:hover {
     color: #004499;
-  }
+  } */
   .container p {
-    line-height: 1.4;
-    margin-bottom: 25px;
+    /* line-height: 1.4; */
+    /* margin-bottom: 1.0em; was 25 px  */
   }
   .research-updates ul {
     padding-left: .2em;   /* keeps bullets aligned nicely */
@@ -20,7 +20,7 @@ title: Home
   }
 
   .research-updates li {
-    line-height: 1.25;
+    /* line-height: 1.25; */
     margin-bottom: 10px;    /* space between updates */
   }
 

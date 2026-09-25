@@ -29,3 +29,14 @@ dl {
     margin: 0;
   }
 }
+
+
+// .page-content {
+//   ul, ol { margin-bottom: 0.75em; }
+//   li { margin-bottom: 0.4em; }
+// }
+
+.page-content {
+  ul, ol { margin-bottom: $paragraph-spacing; }
+  li { margin-bottom: $paragraph-spacing / 2; }
+}

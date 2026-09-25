@@ -4,6 +4,7 @@ body {
   //font-feature-settings: "kern", "liga", "pnum";
   font-size: $base-font-size;
   line-height: $base-line-height;
+  font-weight: $base-font-weight;
 }
 
 h1,
@@ -16,7 +17,7 @@ h6 {
   font-size: $base-font-size;
   line-height: $heading-line-height;
   margin: $small-spacing 0 $small-spacing 0;
-  font-weight: 700;
+  font-weight: $bold-font-weight; // AC just added 9/24, was 700
 }
 
 h1 {
@@ -41,11 +42,12 @@ h6 {
 }
 
 p {
-  margin: 0 0 $small-spacing;
+  // margin: 0 0 $small-spacing;
+  margin: 0 0 $paragraph-spacing; 
 
   &.lead {
-    font-size: rem(17);
-    font-weight: 300;
+    // font-size: rem(17);
+    font-weight: $base-font-weight;
   }
 }
 
@@ -133,3 +135,6 @@ dl {
     list-style-position: outside;
     list-style-image: none;
 }
+
+
+strong, b { font-weight: $bold-font-weight; }

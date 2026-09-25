@@ -4,19 +4,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+// $base-font-family: 'Inconsolata', monospace;
+$base-font-family: 'DM Mono', monospace;
+
 // $base-font-family: 'Roboto Mono', monospace;
 // $base-font-family: 'Overpass Mono', monospace;
-$base-font-family: 'Inconsolata', monospace;
 // $base-font-family: 'Libre Baskerville', serif;
 // $base-font-family: 'DM Sans', sans-serif;
 $heading-font-family: $base-font-family;
 
 // Font Sizes
-$base-font-size: 1em;
+$base-font-size: 0.9rem;   // was 1em
+
+// Font Weights (DM Mono has 300, 400, 500)
+$base-font-weight: 400;
+$bold-font-weight: 700;
 
 // Line height
-$base-line-height: 1.5;
+$base-line-height: 1.4;
 $heading-line-height: 1.2;
+$paragraph-spacing: 1.25em;
 
 // Other Sizes
 $base-border-radius: .52em;
@@ -31,7 +41,7 @@ $white-color: rgb(255, 255, 255);
 $test-color: #DBD1B3;
 $test-color2: #9b7606;
 $black-color: #000;
-$blue-color: #0086B3;
+$blue-color:  #0066cc;
 $dark-gray-color: #333;
 $medium-gray-color: #999;
 $light-gray-color: #ccc;
