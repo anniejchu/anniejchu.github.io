@@ -314,8 +314,8 @@ hr {
   font-weight: $sans-font-weight;
 }
 
-.logo a { color: $accent; }
-.logo a:hover { color: shade($accent, 20%); }
+.logo a { color: darkred; }
+.logo a:hover { color: rgb(232, 9, 9); }
 
 
 // timeline stuff
@@ -371,4 +371,22 @@ hr {
     grid-column: 2; text-align: left; padding: 4px 0 $paragraph-spacing 14px;
     &::before { left: 0; right: auto; }
   }
+}
+
+@supports (animation-timeline: scroll()) {
+  body::before {
+    content: "";
+    position: fixed; top: 0; left: 0;
+    width: 100%; height: 3px;
+    background: $accent;
+    transform-origin: left;
+    animation: scroll-progress linear;
+    animation-timeline: scroll();
+    z-index: 100;
+  }
+}
+
+@keyframes scroll-progress {
+  from { transform: scaleX(0); }
+  to   { transform: scaleX(1); }
 }
