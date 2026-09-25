@@ -96,7 +96,7 @@ title: Home
         <div class="tl-item">Our work <em>FXplorer</em> was accepted to NIME 2026! Learn more <a href="fxplorer/">here</a>.</div>
       </div>
       <div class="tl-row g">
-        <div class="tl-date">March 2025</div>
+        <div class="tl-date">March 2026</div>
         <div class="tl-item">Presented <em>Listening in the Age of the Algorithm: Bridging Musicology and HCI Methodologies</em> at Clouds, Streams, and Ground (Truths) Conference 2026 in Berkeley, CA.</div>
       </div>
       <div class="tl-row r">

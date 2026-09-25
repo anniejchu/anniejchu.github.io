@@ -314,6 +314,12 @@ hr {
   font-weight: $sans-font-weight;
 }
 
+
+// nested .container inside a project page (e.g. Text2FX title block)
+.container.project .container {
+  font-weight: inherit;
+}
+
 .logo a { color: darkred; }
 .logo a:hover { color: rgb(232, 9, 9); }
 
@@ -345,6 +351,7 @@ hr {
   grid-column: 2; grid-row: 1;
   text-align: center; font-size: 11px; color: $muted;
   padding-top: 4px; position: relative; z-index: 1;
+  background: linear-gradient($paper, $paper) no-repeat center top / 100% 1.6em;
 }
 
 .tl-item {
