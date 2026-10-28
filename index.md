@@ -81,11 +81,11 @@ title: Home
       </div>
       <div class="tl-row r">
         <div class="tl-date">July 2026</div>
-        <div class="tl-item">Our work <em>Smorph: Playable Sound Morphing with Diffusion Models</em> was accepted to ISMIR 2026!</div>
+        <div class="tl-item">Our work <a href="https://smorphspace.github.io/"><strong>Smorph: Playable Sound Morphing with Diffusion Models </strong></a>was accepted to ISMIR 2026!</div>
       </div>
       <div class="tl-row r">
         <div class="tl-date">July 2026</div>
-        <div class="tl-item"><em>D-Composer: Language Modeling for Simultaneous Drum Transcription and Sound Event Decomposition</em>, work led by <a href="https://oreillyp.github.io/">Patrick O'Reilly</a> was accepted to ISMIR 2026! Check out the <a href="https://d-composer.github.io/">demo page.</a></div>
+        <div class="tl-item"><a href="https://d-composer.github.io/"><strong>D-Composer</strong></a>, work led by <a href="https://oreillyp.github.io/">Patrick O'Reilly</a> was accepted to ISMIR 2026. </div>
       </div>
       <div class="tl-row g">
         <div class="tl-date">July 2026</div>
@@ -93,7 +93,7 @@ title: Home
       </div>
       <div class="tl-row r">
         <div class="tl-date">April 2026</div>
-        <div class="tl-item">Our work <em>FXplorer</em> was accepted to NIME 2026! Learn more <a href="fxplorer/">here</a>.</div>
+        <div class="tl-item">Our work <a href="fxplorer/"><strong>FXplorer</strong></a> as accepted to NIME 2026.</div>
       </div>
       <div class="tl-row g">
         <div class="tl-date">March 2026</div>
@@ -101,7 +101,7 @@ title: Home
       </div>
       <div class="tl-row r">
         <div class="tl-date">Jan 2026</div>
-        <div class="tl-item">Our work <em>Mix2Morph: Learning Sound Morphing from Noisy Mixes</em> was accepted at ICASSP 2026 (to be presented May 2026 in Barcelona!). See <a href="mix2morph/">demo page</a>.</div>
+        <div class="tl-item">Our work <a href="mix2morph/"><strong>Mix2Morph</strong></a> was accepted to ICASSP 2026.</div>
       </div>
       <div class="tl-row g">
         <div class="tl-date">Summer 2025</div>
@@ -109,15 +109,15 @@ title: Home
       </div>
       <div class="tl-row r">
         <div class="tl-date">July 2025</div>
-        <div class="tl-item"><em>Sound Check: Auditing Recent Audio Dataset Practices</em>, work led by <a href="https://sites.google.com/view/williamagnew?usp=sharing">William Agnew</a> was accepted into AIES 2025. Check out the <a href="https://arxiv.org/abs/2410.13114">paper.</a></div>
+        <div class="tl-item"><a href="https://arxiv.org/abs/2410.13114"><strong>Sound Check</strong></a>, work led by <a href="https://sites.google.com/view/williamagnew?usp=sharing">William Agnew</a> was accepted into AIES 2025.</div>
       </div>
       <div class="tl-row r">
         <div class="tl-date">June 2025</div>
-        <div class="tl-item"><em>The Rhythm In Anything (TRIA): Audio-prompted Drums generation with masked language modeling</em>, work led by <a href="https://oreillyp.github.io/">Patrick O'Reilly</a>, was accepted at ISMIR 2025. Check out the <a href="https://therhythminanything.github.io/">demo page.</a></div>
+        <div class="tl-item"><a href="https://therhythminanything.github.io/"><strong>The Rhythm In Anything (TRIA)</strong></a>, work led by <a href="https://oreillyp.github.io/">Patrick O'Reilly</a>, was accepted at ISMIR 2025. </div>
       </div>
       <div class="tl-row r">
         <div class="tl-date">April 2025</div>
-        <div class="tl-item">Presented our work <em>Text2FX</em> at ICASSP 2025! Check out the <a href="https://arxiv.org/abs/2409.18847">paper (arXiv)</a> and the <a href="text2fx/">demo page</a>.</div>
+        <div class="tl-item">Presented <a href="text2fx/"><strong>Text2FX</strong></a> at ICASSP 2025! </div>
       </div>
     </div>
   </div>

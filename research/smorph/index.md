@@ -26,7 +26,7 @@ page_class: project
 </head>
 
 
-<p align="center"> <strong><font size="5">SMORPH: Playable Sound Morphing with Diffusion Models</font></strong> </p>
+<p align="center"> <strong><font size="5">Smorph: Playable Sound Morphing with Diffusion Models</font></strong> </p>
 <p align="center"><font size="3"><u>Annie Chu*</u>, Hugo Flores García*, Johannes Imort, Oriol Nieto, Bryan Pardo, Jordan Rudess, Prem Seetharaman, Justin Salamon</font></p>
 <p align="center"><font size="3">Northwestern University</font></p>
 <p align="center"><font size="3">(*) denotes equal contribution</font></p>

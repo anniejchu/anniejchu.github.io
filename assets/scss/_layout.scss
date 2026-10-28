@@ -57,15 +57,15 @@ hr {
 .link {
   color: $blue-color;
   padding-bottom: 0;
-  border-bottom: 2px solid transparent;
-
-  @include transition(border 300ms linear);
+  border-bottom: none;
 
   &:hover,
   &:focus,
   &:active {
-    border-bottom: 2px solid $blue-color;
-    padding-bottom: 0;
+    border-bottom: none;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.15em;
   }
 }
 
@@ -396,4 +396,37 @@ hr {
 @keyframes scroll-progress {
   from { transform: scaleX(0); }
   to   { transform: scaleX(1); }
+}
+
+.navbar {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 2px 16px;
+
+  li { padding: 0; }
+
+  .navbar-cv       { grid-column: 1; grid-row: 2; }
+  .navbar-teaching { grid-column: 2; grid-row: 1; }
+  .navbar-research { grid-column: 2; grid-row: 2; }
+
+  .navbar-teaching a {
+    font-size: .75rem;
+    opacity: .05;
+    transition: opacity 150ms ease;
+
+    &:hover,
+    &:focus {
+      opacity: 1;
+    }
+  }
+  .navbar-teaching {
+  grid-column: 2;
+  grid-row: 1;
+  justify-self: end;
+}
+}
+
+.timeline .tl-row .tl-item {
+  line-height: 1.1em;
+  padding-bottom: .65em;
 }
